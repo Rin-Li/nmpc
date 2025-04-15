@@ -136,4 +136,5 @@ if __name__ == "__main__":
         plt.gca().add_artist(circle)
     
     plt.axis('equal')
+    plt.savefig('trajectory.png')
     plt.show()
